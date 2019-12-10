@@ -1,0 +1,45 @@
+                              ################# NODE JS INTRODUCTION #####################
+        
+     Node js is server side platform which build on Google Chrome Java Script V8 Engine(Every browser needs a compiler so in chrome we
+     have v8 engine to compile....)
+    
+    Definition: It use runtime(?) environment and non blocking i.e., wastes no time and resources for waiting I/O response and 
+                event driven(Event Mechanisum that is event loop)
+                These things makes node js as lightweight(?) and efficient By using node js we can build easily scalable and 
+                fast network applications.
+  
+                  ####################### POINTS TO KNOW ABOUT NODE JS ###########################
+                  
+    Node is open source and cross platform to develop on server side 
+    Node is not a framework but express is a framework
+    Node is server side JavaScript environment 
+    Node js written in c++ and it works with v8 engine
+    Node provides rich liabraries of javascript modules which simplifies the development of web applications to great extent  
+    Node js converts Java Script to Machine Language 
+  
+      NODE JS                                           PHP
+   1. it's faster than php                      1. it's easy to pick this language
+   2. it's more extensive than php              2. few lines of code
+   3. asynchronous                              3. synchronous
+  
+    NOTE: Advantage of node js you can use on both front end and backend 
+         ** extensive: covering large area
+         
+                    ######################## FEATURES OF NODE JS ###################################
+               
+       1. Asynchronous : It wont waste time for I/O response
+       
+       2. Very Fast : Node is very fast in code execution
+       
+       3. Single Thread but Highly Scalable: By using event mechanism it handles large number of requests 
+       
+              
+              
+                    ####################### WHERE TO USE NODE JS ####################################
+                    
+         1. I/O applications
+         2. Single page applications
+         3. JSON data based applications 
+         
+        Note: For CPU applications its not adviseable 
+                   
