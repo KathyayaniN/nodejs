@@ -1,0 +1,101 @@
+Type 1:
+  
+    ex: create two files 
+    i have created main.js and child.js
+    
+    Child.js
+      // I am assigning function to varaible and passing array as agrument
+      var counter = function (arr){
+        return 'the length is here'+ arr.length
+      }
+      module.export = counter 
+      // here module.export is just empty object we are assigning the counter function to that
+      
+      
+      Main.js
+      
+      var counter = require(./child)
+      console.log(counter(['vasu','me'])) 
+      
+      OUTPUT:
+      the length is here 2
+      
+      
+    
+ Type 2:
+ 
+        Child.js
+        
+             var length = function (arr){
+               return 'the length is here'+ arr.length
+            }
+             var sum = function (a,b){
+              return 'the sum is'+ ${a+b}
+            }
+              module.exports.legth = length
+              module.export.sum = sum
+              
+         Main.js
+         
+          var length = require(./child)
+          
+          console.log(length(['1','2']));
+          console.log(sum(2,3));
+          
+          
+        OUTPUT :
+        the length is 2
+        5
+        
+        
+  Type 3:
+      
+          Child.js
+          
+            module.exports.legth = function (arr){
+               return 'the length is here'+ arr.length
+            }
+            module.export.sum  = function (a,b){
+              return 'the sum is'+ ${a+b}
+            }
+             
+              
+          Main.js
+         
+               var length = require(./child)
+          
+              console.log(length(['1','2']));
+              console.log(sum(2,3));
+              
+              
+          OUTPUT :
+              the length is 2
+               5
+   
+  Type 4:
+  
+      Child.js
+        
+             var length = function (arr){
+               return 'the length is here'+ arr.length
+            }
+             var sum = function (a,b){
+              return 'the sum is'+ ${a+b}
+            }
+              module.exports={
+              length : length
+              sum: sum
+              }
+              
+      Main.js
+         
+          var length = require(./child)
+          
+          console.log(length(['1','2']));
+          console.log(sum(2,3));
+          
+          
+      OUTPUT :
+        the length is 2
+        5
+          
