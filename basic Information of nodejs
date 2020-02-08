@@ -1,12 +1,23 @@
                               ################# NODE JS INTRODUCTION #####################
         
      Node js is server side platform which build on Google Chrome Java Script V8 Engine(Every browser needs a compiler so in chrome we
-     have v8 engine to compile....)
+     have v8 engine to compile.... written in c++)
     
     Definition: It use runtime(?) environment and non blocking i.e., wastes no time and resources for waiting I/O response and 
                 event driven(Event Mechanisum that is event loop)
                 These things makes node js as lightweight(?) and efficient By using node js we can build easily scalable and 
                 fast network applications.
+                                        
+                                        NODEJS 
+                                          |
+                                          *
+                 WRITTEN IN C++  <--- V8 ENIGNE  ---> MACHINE CODE
+                                           *
+                                           |
+                                       JS COMPILER
+                                      
+                                        
+                              
   
                   ####################### POINTS TO KNOW ABOUT NODE JS ###########################
                   
